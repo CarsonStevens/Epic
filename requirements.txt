@@ -1,0 +1,130 @@
+absl-py==0.10.0
+argon2-cffi @ file:///D:/bld/argon2-cffi_1596630110014/work
+astunparse==1.6.3
+async-generator==1.10
+atomicwrites==1.3.0
+attrs==18.2.0
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+backports.functools-lru-cache==1.6.1
+beautifulsoup4 @ file:///home/conda/feedstock_root/build_artifacts/beautifulsoup4_1601745390275/work
+bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1600454382015/work
+brotlipy==0.7.0
+cachetools==4.1.1
+certifi==2020.6.20
+cffi @ file:///D:/bld/cffi_1600276624154/work
+chardet @ file:///D:/bld/chardet_1600358759938/work
+click==7.1.2
+colorama==0.4.1
+cryptography @ file:///D:/bld/cryptography_1600960402068/work
+decorator==4.4.2
+defusedxml==0.6.0
+entrypoints==0.3
+filelock==3.0.12
+fire==0.3.1
+flake8==3.7.6
+flake8-pep3101==1.2.1
+flake8-polyfill==1.0.2
+gast==0.3.3
+google-auth==1.22.1
+google-auth-oauthlib==0.4.1
+google-pasta==0.2.0
+grpcio==1.32.0
+h5py==2.10.0
+hypothesis==4.6.0
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
+importlib-metadata @ file:///D:/bld/importlib-metadata_1600910602148/work
+iniconfig @ file:///home/conda/feedstock_root/build_artifacts/iniconfig_1596221474428/work
+ipykernel @ file:///D:/bld/ipykernel_1595447157738/work/dist/ipykernel-5.3.4-py3-none-any.whl
+ipython @ file:///D:/bld/ipython_1598750239682/work
+ipython-genutils==0.2.0
+ipywidgets @ file:///home/conda/feedstock_root/build_artifacts/ipywidgets_1599554010055/work
+jedi @ file:///D:/bld/jedi_1595018503144/work
+Jinja2==2.11.2
+joblib==0.17.0
+jsonschema==3.2.0
+jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1598486169312/work
+jupyter-core==4.6.3
+jupyter-dashboards-bundlers==0.9.1
+jupyterlab-pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_pygments_1601375948261/work
+Keras-Preprocessing==1.1.2
+keras2onnx==1.7.0
+Markdown==3.3
+MarkupSafe @ file:///D:/bld/markupsafe_1600368487166/work
+mccabe==0.6.1
+mistune==0.8.4
+mkl-service==2.3.0
+more-itertools==6.0.0
+nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1598558657104/work
+nbconvert @ file:///D:/bld/nbconvert_1601713347710/work
+nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1594060262917/work
+nbsmoke @ file:///home/conda/feedstock_root/build_artifacts/nbsmoke_1600092511057/work
+nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1601342677072/work
+notebook @ file:///D:/bld/notebook_1599742596731/work
+NotebookScripter==6.0.0
+numpy==1.19.2
+oauthlib==3.1.0
+olefile==0.46
+onnx==1.7.0
+onnxconverter-common==1.7.0
+opt-einsum==3.3.0
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1589925210001/work
+pandocfilters==1.4.2
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1595548966091/work
+pep8-naming==0.8.2
+pickleshare==0.7.5
+Pillow @ file:///D:/bld/pillow_1594213048891/work
+pluggy==0.8.1
+prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1590412252446/work
+prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1598885455507/work
+protobuf==3.13.0
+py==1.7.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycodestyle==2.5.0
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
+pyflakes==2.1.0
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1600347314331/work
+pyOpenSSL==19.1.0
+pyparsing==2.4.7
+pyrsistent @ file:///D:/bld/pyrsistent_1599988498407/work
+PySocks==1.7.1
+pytest==4.3.0
+python-dateutil==2.8.1
+pywin32==227
+pywinpty==0.5.7
+pyzmq==19.0.2
+regex==2020.9.27
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1592425495151/work
+requests-oauthlib==1.3.0
+rsa==4.6
+sacremoses==0.0.43
+Send2Trash==1.5.0
+sentencepiece==0.1.91
+six==1.12.0
+soupsieve @ file:///home/conda/feedstock_root/build_artifacts/soupsieve_1597680516047/work
+tensorboard==2.3.0
+tensorboard-plugin-wit==1.7.0
+tensorflow-cpu==2.3.1
+tensorflow-estimator==2.3.0
+termcolor==1.1.0
+terminado @ file:///D:/bld/terminado_1600709850780/work
+testpath==0.4.4
+tokenizers==0.8.1rc2
+toml @ file:///home/conda/feedstock_root/build_artifacts/toml_1589469402899/work
+torch @ file:///C:/ci/pytorch_1596721630134/work
+torchvision==0.7.0
+tornado==6.0.4
+tqdm==4.50.1
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1600970644261/work
+# Editable install with no version control (transformers==3.3.1)
+-e c:\users\carson\onedrive\desktop\programming\projects\epic\transformers\src
+typing-extensions==3.7.4.3
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1595434816409/work
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1600965781394/work
+webencodings==0.5.1
+Werkzeug==1.0.1
+widgetsnbextension @ file:///D:/bld/widgetsnbextension_1594164533747/work
+win-inet-pton==1.1.0
+wincertstore==0.2
+wrapt==1.12.1
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1601765966131/work
