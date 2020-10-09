@@ -14,10 +14,13 @@
 
 > conda create --name <env_name> --file requirements.txt
 
-
+#### Activate the Environment with your <env_name>
 <em>then...</em>
 
-> cd transformers
-> pip install -e .
+> cd transformers 
+
+> pip install -e <em>.</em>
+
+> git pull
 
 ya done
