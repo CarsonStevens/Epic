@@ -1,17 +1,23 @@
 # Epic
-GTP2/3 Story Telling
+## GTP2/3 Story Telling
 
-<h5>For environment installation:</h5>
-<h6>For conda with environment.yml</h6>
->>> conda env create --name <env_name> -f environment.yml
-<h6>For pip with requirments.txt</h6>
->>> pip install -r requirements.txt
-<h6>For conda with requirements.txt</h6>
->>> conda create --name <env_name> --file requirements.txt
+### For environment installation
+#### For conda with environment.yml
+
+> conda env create --name <env_name> -f environment.yml
+
+#### For pip with requirments.txt
+
+> pip install -r requirements.txt
+
+#### For conda with requirements.txt</h6>
+
+> conda create --name <env_name> --file requirements.txt
 
 
 <em>then...</em>
->>> cd transformers
->>> pip install -e .
+
+> cd transformers
+> pip install -e .
 
 ya done
