@@ -8,3 +8,10 @@ GTP2/3 Story Telling
 >>> pip install -r requirements.txt
 <h6>For conda with requirements.txt</h6>
 >>> conda create --name <env_name> --file requirements.txt
+
+
+<em>then...</em>
+>>> cd transformers
+>>> pip install -e .
+
+ya done
