@@ -11,6 +11,7 @@
   <h4>For conda with requirements.txt</h4>
     conda create --name <env_name> --file requirements.txt</pre>
 <em>then...</em>
+git clone from <a href="https://github.com/huggingface/transformers/tree/297233fa92f4f47e77762430369a61d17ba57134">this</a> repo
 <pre>  cd transformers 
   pip install -e <em>.</em>
   git pull</pre>
