@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css">
-    <script  defer src = "form.js"></script>
+    <link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+    <script defer src="{{ url_for('static', filename='form.js') }}"></script>
   </head>
+
   <body>
     <h1>Machine Learning Project!</h1>
     <p>Let's create your own hero.</p>
     <!-- send this form to flask backend through action -->
     <form action="">
       <p>Pick authors you would like to imitate</p>
-      <div id = "authors"></div>
+      <div id="authors"></div>
       <p>Pick genres you would like to imitate</p>
-      <div id = "genre"> </div>
+      <div id="genre"> </div>
       <p>Include a list of words that you want to exclude, sperated by a ','</p>
       <textarea type="text" name="words" rows="4" cols="50"></textarea>
-     <br>
+      <br>
       <input type="submit" value="Submit">
     </form>
   </body>
+
 </html>
