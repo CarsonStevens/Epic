@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Epic</title>
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto&family=Texturina&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/746df76887.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div id="hamburger">
+      <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="80" onclick="">
+        <path class="line top" d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+        <path class="line middle" d="m 70,50 h -40" />
+        <path class="line bottom" d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+      </svg>
+    </div>
+    <div class="container">
+      <div class="heading">
+        <h1>Epic</h1>
+        <section class="theme-switch-wrapper">
+          <span id="theme">Theme</span>
+          <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <span class="slider round"></span>
+          </label>
+
+        </section>
+
+      </div>
+      <div class="padright"></div>
+      <div class="padleft"></div>
+      <div class="story">
+        <section id="story-container">
+          <section id="story-title" contenteditable="">
+            Your Title Here
+          </section>
+          <section id="current-story" contenteditable="" class="scrollbar" spellcheck="true">
+
+          </section>
+        </section>
+      </div>
+      <div class="input">
+        <textarea id="new-input" placeholder="Enter the next line of the story!" cols="70" rows="5" /></textarea>
+        <span id="new-input-btn"><span id="continue-text">Continue</span>
+          <div class="circle">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+          </div>
+        </span>
+
+
+      </div>
+      <div class="footing"><span class="copyright">&copy; PowerPuff Coders 2020</span></div>
+    </div>
+    <div id="setup">
+      <ul id="setup-header">
+        <li id="author-selection-btn">Author Selection</li>
+        <li id="genre-selection-btn">Genre Selection</li>
+        <li id="story-setting-btn">Story Settings</li>
+      </ul>
+      <form id="settings">
+        <section id="author-selection" class="setting-container">
+          <section id="authors-container" class="scrollbar">
+            {{ author_inputs | safe }}
+          </section>
+        </section>
+        <section id="genre-selection" class="setting-container">
+          <section id="genre-container" class="scrollbar">
+            {{ genre_inputs | safe }}
+          </section>
+        </section>
+        <section id="general-settings" class="setting-container">
+          <section id="blacklist-container">
+            <h2>Black Listed Words<i class="fas fa-info-circle tooltip" data-tip="A list of words that will not appear in the generated text."></i></h2>
+            <ul id="blacklist">
+              {{ blacklist_inputs | safe}}
+            </ul>
+            <section id="blacklist-input-container">
+              <input id="blacklist-input" type="text" placeholder="Add a Black List Word" />
+              <span id="blacklist-btn">Add Word</span>
+            </section>
+          </section>
+          <section id="writing-settings">
+            <h2>Writing Settings<i class="fas fa-info-circle tooltip"
+                data-tip="The 'Creativity' Setting controls how random the text may be. If the output is too random, try decreasing the creativity level. The 'Generation Length' Setting controls how long of any output will be generated each time. Choosing a long length will result in a long wait time and the posibility of more repetition. The best results were achieved when generating no more than a few sentences at a time."></i>
+            </h2>
+            <span id="creativity" class="writing-title">Creativity</span>
+            <input type="range" min="0" max="1" step="0.01" id="temperature" class="user-setting" value="0.75" />
+            <span id="gen-length-title" class="writing-title">Generation Length</span>
+            <input type="range" min="1" max="512" step="1" id="generation-length" class="user-setting" value="20" />
+          </section>
+        </section>
+      </form>
+      <span id="start-btn">Get Writing!</span>
+    </div>
+  </body>
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
+  <script src="{{ url_for('static', filename='theme.js') }}"></script>
+
+</html>
